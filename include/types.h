@@ -11,7 +11,7 @@ typedef enum
 {
     OP_ENCODE,
     OP_DECODE,
-    OP_INALID
+    OP_INVALID
 } Operations;
 
 typedef enum
