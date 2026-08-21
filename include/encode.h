@@ -17,7 +17,7 @@ typedef struct
 
 } EncodeContext;
 
-Status encode_prepare(EncodeContext *context);
+// Status encode_prepare(EncodeContext *context);
 Status encode_image(EncodeContext *context);
 Status encode_cleanup(EncodeContext *context);
 
