@@ -19,6 +19,6 @@ typedef struct
 
 // Status encode_prepare(EncodeContext *context);
 Status encode_image(EncodeContext *context);
-Status encode_cleanup(EncodeContext *context);
+void encode_cleanup(EncodeContext *context);
 
 #endif
